@@ -103,11 +103,11 @@ void main() {
         shoppingMall.showTotal();
         break;
       case '4':
-        print('\n이용해 주셔서 감사합니다 ~ 안녕히 가세요!');
+        print('\n이용해 주셔서 감사합니다.');
         isRunning = false;
         break;
       default:
-        print('\n지원하지 않는 기능입니다! 다시 시도해 주세요..');
+        print('\n구현되지 않은 기능입니다.');
     }
   }
 }
